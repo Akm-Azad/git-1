@@ -13,16 +13,74 @@
     color: aliceblue;
     background-position: ;
 }
-.line1{
-display: flex;
- 
+header{
+position: relative;
+padding: 0 2rem;
+width: 100%;
+height: 60px;
 }
-nav ul {
-    display: grid;
-  
-}
-a{
-    text-decoration: none;
-    color: white;
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+ .logo{
+    color: rgb(247, 170, 5);
+    font-weight: bolder;
+    font-size:  2rem;
+     
+ }
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+nav ul a{
+    color: aliceblue;
+     text-decoration: none;
+}
+nav a:hover{
+    color: chocolate;
+    font-weight: bold;
+}
+.link-button a{
+    background-color: orange;
+    color: rgb(7, 12, 17);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-button:hover{
+    scale: 1.05;
+   
+}
+.welcome{
+     height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+.welcome h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* a:hover{
+    background-color: rgba(240, 167, 31, 0.849);
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: small;  
+} */
